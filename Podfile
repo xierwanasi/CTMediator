@@ -6,6 +6,7 @@
 target 'CTMediator' do
 
 pod "HandyFrame"
+pod "CTHandyCategories"
 
 end
 
