@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CTMediator"
-  s.module_name  = "CTMediator"
   s.version      = "20"
   s.summary      = "CTMediator."
 
@@ -123,6 +122,8 @@ Pod::Spec.new do |s|
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
+  
+  s.module_map = "CTMediator/CTMediator/CTMediator.modulemap"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
