@@ -124,6 +124,7 @@ Pod::Spec.new do |s|
   # s.libraries = "iconv", "xml2"
   
   s.module_map = "CTMediator/CTMediator/CTMediator.modulemap"
+  s.static_framework = true
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
