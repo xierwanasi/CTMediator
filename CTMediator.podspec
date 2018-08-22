@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CTMediator"
+  s.module_name  = "CTMediator"
   s.version      = "18"
   s.summary      = "CTMediator."
 
