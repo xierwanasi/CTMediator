@@ -61,6 +61,8 @@ pod repo add PrivatePods https://github.com/ModulizationDemo/PrivatePods.git
 
 [在现有工程中实施基于CTMediator的组件化方案](http://casatwy.com/modulization_in_action.html)
 
+[CTMediator的Swift应用](https://casatwy.com/CTMediator_in_Swift.html)
+
 ---
 
 本工程其实也是个Demo
