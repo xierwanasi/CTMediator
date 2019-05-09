@@ -10,7 +10,7 @@
 
 NSString * const kCTMediatorTargetA = @"A";
 
-NSString * const kCTMediatorActionNativFetchDetailViewController = @"nativeFetchDetailViewController";
+NSString * const kCTMediatorActionNativeFetchDetailViewController = @"nativeFetchDetailViewController";
 NSString * const kCTMediatorActionNativePresentImage = @"nativePresentImage";
 NSString * const kCTMediatorActionNativeNoImage = @"nativeNoImage";
 NSString * const kCTMediatorActionShowAlert = @"showAlert";
@@ -22,7 +22,7 @@ NSString * const kCTMediatorActionConfigCell = @"configCell";
 - (UIViewController *)CTMediator_viewControllerForDetail
 {
     UIViewController *viewController = [self performTarget:kCTMediatorTargetA
-                                                    action:kCTMediatorActionNativFetchDetailViewController
+                                                    action:kCTMediatorActionNativeFetchDetailViewController
                                                     params:@{@"key":@"value"}
                                          shouldCacheTarget:NO
                                         ];
