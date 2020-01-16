@@ -17,7 +17,7 @@ pod "CTMediator"
 ---
 
 
-`CTMediator` helps you to devide your project into multi-project, and use `Target-Action` pattern to let subprojects to communicate with each other. *with no regist process!*
+`CTMediator` helps you to divide your project into multi-project, and use `Target-Action` pattern to let subprojects to communicate with each other. *with no regist process!*
 
 you can check demo for more details:
 
