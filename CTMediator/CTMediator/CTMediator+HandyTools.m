@@ -43,7 +43,7 @@
     }
 }
 
-- (void)presentViewController:(UIViewController *)viewControllerToPresent animated:(BOOL)animated completion:(void (^)(void))completion
+- (void)presentViewController:(UIViewController *)viewControllerToPresent animated:(BOOL)animated completion:(void (^ _Nullable)(void))completion
 {
     UIViewController *viewController = [self topViewController];
     if ([viewController isKindOfClass:[UINavigationController class]]) {
