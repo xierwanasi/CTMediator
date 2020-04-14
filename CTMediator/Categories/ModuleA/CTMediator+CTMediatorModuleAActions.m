@@ -94,7 +94,7 @@ NSString * const kCTMediatorActionConfigCell = @"configCell";
 
 - (void)CTMediator_cleanTableViewCellTarget
 {
-    [self releaseCachedTargetWithTargetName:kCTMediatorTargetA];
+    [self releaseCachedTargetWithFullTargetName:kCTMediatorTargetA];
 }
 
 @end
