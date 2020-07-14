@@ -23,6 +23,4 @@ extern NSString * _Nonnull const kCTMediatorParamsKeySwiftTargetModuleName;
 @end
 
 // 简化调用单例的函数
-CTMediator* _Nonnull CT() {
-    return [CTMediator sharedInstance];
-}
+CTMediator* _Nonnull CT(void);
