@@ -21,3 +21,8 @@ extern NSString * _Nonnull const kCTMediatorParamsKeySwiftTargetModuleName;
 - (void)releaseCachedTargetWithFullTargetName:(NSString * _Nullable)fullTargetName;
 
 @end
+
+// 简化调用单例的函数
+CTMediator* _Nonnull CT() {
+    return [CTMediator sharedInstance];
+}
