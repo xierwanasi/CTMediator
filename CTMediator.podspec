@@ -24,10 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-  this is CTMediator
-                   DESC
-
+  s.description  = "this is CTMediator"
   s.homepage     = "https://github.com/casatwy/CTMediator"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
@@ -69,7 +66,7 @@ Pod::Spec.new do |s|
 
   #  When using multiple platforms
   s.ios.deployment_target = "7.0"
-  s.osx.deployment_target = "10.7"
+  s.osx.deployment_target = "10.12"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
