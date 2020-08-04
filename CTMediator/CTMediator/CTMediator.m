@@ -8,6 +8,7 @@
 
 #import "CTMediator.h"
 #import <objc/runtime.h>
+#import <CoreGraphics/CoreGraphics.h>
 
 NSString * const kCTMediatorParamsKeySwiftTargetModuleName = @"kCTMediatorParamsKeySwiftTargetModuleName";
 

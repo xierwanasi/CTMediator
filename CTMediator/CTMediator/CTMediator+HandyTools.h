@@ -6,9 +6,10 @@
 //  Copyright © 2020 casa. All rights reserved.
 //
 
-#import "CTMediator.h"
-
 #if TARGET_OS_IOS
+
+#import "CTMediator.h"
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
