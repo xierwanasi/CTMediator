@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CTMediator"
-  s.version      = "42"
+  s.version      = "43"
   s.summary      = "CTMediator."
 
   # This description is used to generate tags and improve search results.
