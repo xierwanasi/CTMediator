@@ -12,7 +12,7 @@
 
 @implementation CTMediator (HandyTools)
 
-- (UIWindow *)KeyWindow {
+- (UIWindow *)keyWindow {
     if (@available(iOS 13, *)) {
         NSArray<UIWindow *> *windows = [[UIApplication sharedApplication] windows];
         for (UIWindow *window in windows) {
@@ -29,7 +29,7 @@
 
 - (UIViewController *)topViewController
 {
-    UIViewController *topController = [self KeyWindow].rootViewController;
+    UIViewController *topController = [self keyWindow].rootViewController;
     
     while (topController.presentedViewController) {
         topController = topController.presentedViewController;
