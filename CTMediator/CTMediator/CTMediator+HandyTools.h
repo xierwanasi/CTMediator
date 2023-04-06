@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (UIViewController * _Nullable)topViewController NS_EXTENSION_UNAVAILABLE_IOS("not available on iOS (App Extension)");
 
-- (UIWindow * _Nullable)KeyWindow NS_EXTENSION_UNAVAILABLE_IOS("not available on iOS (App Extension)");
+- (UIWindow * _Nullable)keyWindow NS_EXTENSION_UNAVAILABLE_IOS("not available on iOS (App Extension)");
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated NS_EXTENSION_UNAVAILABLE_IOS("not available on iOS (App Extension)");
 
