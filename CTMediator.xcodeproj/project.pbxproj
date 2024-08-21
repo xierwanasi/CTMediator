@@ -61,6 +61,8 @@
 		582B5B9F2C6B5CD1001B9083 /* CTMediator+HandyTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+HandyTools.h"; sourceTree = "<group>"; };
 		582B5BA12C6B5CD1001B9083 /* CTMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
 		582B5BA22C6B5CD1001B9083 /* CTMediator+HandyTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+HandyTools.m"; sourceTree = "<group>"; };
+		58EC8B612C759A90009712E3 /* CTMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
+		58EC8B622C759A90009712E3 /* CTMediator+HandyTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+HandyTools.h"; sourceTree = "<group>"; };
 		E9C114EF1101F17773DD4798 /* Pods-CTMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMediator.release.xcconfig"; path = "Pods/Target Support Files/Pods-CTMediator/Pods-CTMediator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -200,7 +202,9 @@
 			isa = PBXGroup;
 			children = (
 				582B5BA02C6B5CD1001B9083 /* include */,
+				58EC8B612C759A90009712E3 /* CTMediator.h */,
 				582B5BA12C6B5CD1001B9083 /* CTMediator.m */,
+				58EC8B622C759A90009712E3 /* CTMediator+HandyTools.h */,
 				582B5BA22C6B5CD1001B9083 /* CTMediator+HandyTools.m */,
 			);
 			name = CTMediator;
