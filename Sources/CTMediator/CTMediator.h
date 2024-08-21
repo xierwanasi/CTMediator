@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "CTMediator+HandyTools.h"
+
 extern NSString * _Nonnull const kCTMediatorParamsKeySwiftTargetModuleName;
 
 @interface CTMediator : NSObject
